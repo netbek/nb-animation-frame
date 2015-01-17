@@ -14,7 +14,7 @@
 		.factory('AnimationFrame', ['$window', function AnimationFrame ($window) {
 				var AnimationFrame = $window.AnimationFrame;
 				delete $window.AnimationFrame;
-				return (AnimationFrame);
+				return AnimationFrame;
 			}])
 		.run(runBlock);
 

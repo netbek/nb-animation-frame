@@ -40,11 +40,7 @@ module.exports = function (grunt) {
 		},
 		uglify: {
 			options: {
-				banner: '<%= meta.banner %>',
-//				preserveComments: false,
-//				mangle: {
-//					except: ['angular']
-//				},
+				banner: '<%= meta.banner %>'
 			},
 			dist: {
 				src: ['dist/js/<%= pkg.name %>.js'],
