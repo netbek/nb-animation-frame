@@ -1,0 +1,3 @@
+[submodule "vendor/animation-frame"]
+	path = vendor/animation-frame
+	url = https://github.com/kof/animation-frame.git
