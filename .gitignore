@@ -26,5 +26,3 @@ nbproject
 src/vendor/
 # Exclude Node.js modules directory
 node_modules/
-# Exclude dist directory
-dist/
