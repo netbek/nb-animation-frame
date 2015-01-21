@@ -20,6 +20,7 @@
 		"vendor"
 	],
 	"dependencies": {
+		"angular": "~1.2.28",
 		"animation-frame": "https://github.com/kof/animation-frame.git#master"
 	}
 }
