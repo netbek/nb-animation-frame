@@ -1,0 +1,25 @@
+{
+	"name": "nb-animation-frame",
+	"version": "0.0.1",
+	"description": "AngularJS wrapper for AnimationFrame",
+	"homepage": "https://github.com/netbek/nb-animation-frame",
+	"author": {
+		"name": "Hein Bekker",
+		"email": "hein@netbek.co.za",
+		"url": "http://netbek.co.za"
+	},
+	"license": {
+		"type": "AGPLv3",
+		"url": "http://www.gnu.org/licenses/agpl-3.0.txt"
+	},
+	"ignore": [
+		"bower_components",
+		"node_modules",
+		"test",
+		"tests",
+		"vendor"
+	],
+	"dependencies": {
+		"animation-frame": "https://github.com/kof/animation-frame.git#master"
+	}
+}
