@@ -11,15 +11,7 @@
 
 	angular
 		.module('nb.animationFrame', [])
-		.factory('AnimationFrame', ['$window', function AnimationFrame ($window) {
-				var AnimationFrame = $window.AnimationFrame;
-				delete $window.AnimationFrame;
-				return AnimationFrame;
-			}])
-		.run(runBlock);
-
-	// Invoke at runtime to allow factory to delete global reference.
-	runBlock.$inject = ['AnimationFrame'];
-	function runBlock (AnimationFrame) {
-	}
+		.factory('AnimationFrame', ['$window', function ($window) {
+				return $window.AnimationFrame;
+			}]);
 })(window, window.angular);
